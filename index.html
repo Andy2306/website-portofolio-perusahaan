@@ -6,7 +6,36 @@
     <link rel="stylesheet" href="./public/style.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="bg-gradient-to-r from-white to-blue-300"> <!--Body web-->
+    <!--bagian Navbar-->
+    <header class="absolute py-3 z-10 flex w-full items-center bg-transparent">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="" class="font-bold text-lg">Lorem, ipsum dolor.</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="navbutton" name="navbutton" type="button" class="block absolute right-4">
+              <span class="nav-button transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="nav-button transition duration-300 ease-in-out"></span>
+              <span class="nav-button transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250] w-full right-4 top-full ">
+              <ul class="block">
+                <li class="group">
+                  <a href="" class="text-bold text-black py-2 mx-8 group-hover:text-purple-700">Home</a>
+                </li>
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--bagian Navbar-->
+
+    <!--bagian Home-->
     <section id="home" class="pt-36 top-0 py-5">
         <div class="container">
             <div class="flex flex-wrap">
@@ -25,5 +54,9 @@
             </div>
         </div>
     </section>
+    <!--bagian Home-->
+
+
   </body>
+  <script src="./public/script.js"></script>
 </html>
