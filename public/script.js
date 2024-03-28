@@ -1,3 +1,14 @@
+// animasi scroll
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click',function (e){
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      })
+  })
+})
+
 // Navbar Fixed
 window.onscroll = function () {
   const header = document.querySelector("header");

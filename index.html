@@ -12,19 +12,31 @@
       <div class="container">
         <div class="flex items-center justify-between relative">
           <div class="px-4">
-            <a href="" class="font-bold text-lg">Lorem, ipsum dolor.</a>
+            <a href="#home" class="font-bold text-lg">Lorem, ipsum dolor.</a>
           </div>
           <div class="flex items-center px-4">
-            <button id="navbutton" name="navbutton" type="button" class="block absolute right-4">
+            <button id="navbutton" name="navbutton" type="button" class="block absolute right-4 lg:hidden">
               <span class="nav-button transition duration-300 ease-in-out origin-top-left"></span>
               <span class="nav-button transition duration-300 ease-in-out"></span>
               <span class="nav-button transition duration-300 ease-in-out origin-bottom-left"></span>
             </button>
 
-            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250] w-full right-4 top-full ">
-              <ul class="block">
+            <nav id="nav-menu" class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark dark:shadow-slate-500 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none font-bold">
+              <ul class="block lg:flex">
                 <li class="group">
-                  <a href="" class="text-bold text-black py-2 mx-8 group-hover:text-purple-700">Home</a>
+                  <a href="#home" class="text-bold text-black py-2 mx-8 flex group-hover:text-purple-700">Home</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="text-bold text-black py-2 mx-8 flex group-hover:text-purple-700">Tentang</a>
+                </li>
+                <li class="group">
+                  <a href="#service" class="text-bold text-black py-2 mx-8 flex group-hover:text-purple-700">Layanan</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="text-bold text-black py-2 mx-8 flex group-hover:text-purple-700">Hubungi Kami</a>
+                </li>
+                <li class="group">
+                  <a href="#prakerin" class="text-bold text-black py-2 mx-8 flex group-hover:text-purple-700">PRAKERIN</a>
                 </li>
               </ul>
             </nav>
@@ -56,7 +68,23 @@
     </section>
     <!--bagian Home-->
 
-
+    <!--bagian About-->
+    <section id="about" class="pt-36 top-0 py-5">
+      <div class="container">
+          <div class="flex flex-wrap">
+              <div class="w-full self-center px-4 lg:w-1/2">
+                  <h1 class="text-4xl block mt-1 text-purple-700 font-bold">Lorem ipsum dolor sit amet consectetur</h1>
+                  <p class="font-medium mb-20 text-slate-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, repudiandae. Dolore earum odit qui! Quae suscipit aliquid quam sint iusto.</p>
+              </div>
+              <div class="w-full self-end px-4 lg:w-1/2">
+                  <div class="mt-10 lg:mt-9 lg:right-0">
+                      <img src="./public/source/gambar0.png" alt="" class="max-w-full mx-auto">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    <!--bagian About-->
   </body>
   <script src="./public/script.js"></script>
 </html>
