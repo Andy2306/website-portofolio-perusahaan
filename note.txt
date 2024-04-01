@@ -1,0 +1,18 @@
+<section id="contact" class="pt-6 top-0 py-5 h-screen">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full text-center">
+            <h2 class="font-bold uppercase text-4xl text-purple-700 mb-10">Hubungi kami</h2>
+          </div>
+          <div class="w-full text-center font-medium mb-20 text-slate-400 leading-relaxed">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequatur esse excepturi adipisci provident tempora rerum laboriosam velit quam reiciendis.</p>
+            <p>ADMIN 1 : <a href="">0123456789</a></p>
+            <p>ADMIN 2 : <a href="">0123456789</a></p>
+            <p>OWNER : <a href="">0123456789</a></p>
+          </div>
+          <div class="container items-center justify-center	">
+            <iframe class="w-full h-[500px] " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d587.8871139171089!2d110.93428773742784!3d-7.594850296838843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a18719438ada7%3A0xb420a780b1d7994c!2sVicelnet%20Karanganyar!5e0!3m2!1sen!2sid!4v1711943264589!5m2!1sen!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+      </div>
+    </section>  
